@@ -40,9 +40,11 @@ ul li.active a{
 }
 
 .logo img{
-	float: left;
+	position: absolute;
+	top: 52%;
+	left: 24%;
+	transform: translate(-50%,-50%);
 	width: 100px;
-	height: auto;
 }
 
 .main{
@@ -52,8 +54,8 @@ margin: auto;
 
 .title{
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 53%;
+	left: 53%;
 	transform: translate(-50%,-50%);
 }
 .title{
